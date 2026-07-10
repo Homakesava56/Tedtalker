@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Boyz AI Speaker Booking Bot">
+  <title>The Boyz AI Speaker Bot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <section class="banner">
+      <img src="assets/the-boyz-banner.png" alt="The Boyz AI Speaker Bot banner">
+      <div class="banner-overlay">
+        <h1>The Boyz AI Speaker Bot</h1>
+        <p>AI-powered speaker discovery, matching, and booking.</p>
+      </div>
+    </section>
+
+    <section id="chat" class="chat" aria-live="polite"></section>
+
+    <section class="controls">
+      <input id="userInput" type="text" placeholder="Type a topic, speaker name, or a random question..." autocomplete="off">
+      <button id="sendButton" type="button">Send</button>
+    </section>
+
+    <footer class="footer">
+      Academic prototype — final speaker availability and pricing require confirmation.
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
